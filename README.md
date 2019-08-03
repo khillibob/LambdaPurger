@@ -1,5 +1,5 @@
 # LambdaPurger
-Script to purge AWS Lambda older versions
+Script to parse all the AWS lambdas and purge all  Lambda's older versions
 
 ## How to Use this script?
 The default behavior of this lambda is that it will clean all the old versions except latest 5 versions. You can change this by changing version_to_retain variable in purge_old_lambda_versions method.
@@ -9,4 +9,4 @@ The default behavior of this lambda is that it will clean all the old versions e
  - Use the policy.json as the policy for this role
  - Use any payload. Sample ``` {"key1":"value1","key2":"value2","key3":"value3"}```
  - The lambda will return ``` {"statusCode":200,"body":"\"Hello from Lambda!\""} ```
- - 
+ 
