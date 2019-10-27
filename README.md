@@ -10,7 +10,6 @@ The default behavior of this lambda is that it will clean all the old versions e
  - Use any payload. Sample ``` {"key1":"value1","key2":"value2","key3":"value3"}```
  - The lambda will return ``` {"statusCode":200,"body":"\"Hello from Lambda!\""} ```
  
-## Small Trick
+## Point
 If you don't have space even to create this lambda then go to any lambda detail page and click "Qualifier" and click version and select oldest version. Then click "Action" and "Delete Function".
-Voila!! 
 Now create the purger lambda and execute it.    
